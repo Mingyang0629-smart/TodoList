@@ -1,0 +1,70 @@
+* {
+    margin:  0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+:root {
+    --dark: lightgray;
+    --darker: gray;
+}
+
+body {
+    background-color: var(--darker);
+}
+#Todo {
+    margin-top: 20px;
+}
+.titleupdate {
+    font-weight: 700;
+    font-size: 60;
+    text-decoration: underline;
+    color: var(--dark);
+    background-color: var(--darker);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+
+}
+#Todo-Label {
+    font-size: 30;
+    color: var(--dark);
+    font-weight: 300;
+    
+}
+.done {
+    
+    background-color: lightgreen;
+}
+
+#Todo-Input {
+    margin-top: 20px;
+    background-color: var(--darker);
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    color: var(--dark  );
+    
+}
+
+#Todo-Button {
+    background-color: var(--dark);
+    border-color: var(--darker);
+}
+
+.Containers {
+   
+    margin-top: 20px;
+    
+  font-size: 20;
+   
+    color: var(--dark  );
+    transition-duration: 1s;
+
+}
+
+
+
+.dance {
+    position: absolute;
+    left: 60%;
+    height: 250px   ;
+}
